@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color:#777;
+
+    background:#ccc;
+    
+    margin:0 auto;
+    font-weight:400;
+
+ 
+
+}
+
+nav{
+    display:block;
+    position:sticky;
+   
+    background-color:#fff;
+    border-bottom:0.8px solid #ccc;
+    width:100%;
+    height:4rem;;
+    margin-top:0; 
+
+
+    
+}
+
+.logo{
+    /*decoration*/
+    background:#4aaaa5;
+    margin-left:10%;
+    color:#fff;
+    text-align:center;
+
+/*positioning*/
+    float:left;
+    height:4rem;
+    padding:0 8px;
+}
+
+.basic-nav{
+    /*decoration*/
+    text-transform: uppercase;
+
+    /*positioning*/
+    float:right;
+    margin-right:15%;
+    margin-top:10px;
+    padding:10px;
+    
+}
+
+.basic-nav, a{
+    text-decoration: none;
+    padding:20px 10px;
+    color:#777;
+}
+
+main{
+
+    width:80%;
+    margin:20px auto;
+    border: .8px solid #ccc;
+    background:#fff;
+
+}
+
+#aboutMe{
+
+    background:white;
+
+    display:block;
+
+}
+
+hr{
+    width:95%;
+    border: 1px solid #777;
+
+}
+
+.title{
+    padding-left:20px;
+    color:#4aaaa5;
+    
+}
+
+img{
+    float:left;
+    width:200px;
+    padding:10px;
+}
+
+#bio{
+    
+    font-size:20px;
+    line-height:30px;
+}
+
+#footer{
+    width:100%;
+    border: 1px solid #4aaaa5;
+}
+
+
+
+.projects{
+    display: grid;
+    grid-gap:0.7rem;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.portfolio-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+
+}
+
+.card{
+    display:block;
+    padding:0.5rem 1rem;
+    border:0;
+    margin-bottom:0.3rem;
+    background:#4aaaa5;
+    
+}
+
+
+.wrapper{
+    background:#4aaaa5;
+    z-index: 7;
+    height:50px;
+}
+
+.contact-form{
+
+    width:80%;
+    margin:20px;
+
+}
+
+.form-control{
+    width:100%;
+    
+   
+}
+
+textarea{
+    height:8em;
+
+}
+
+
+
+
+.clearfix::after{
+    content:'';
+    display: block;
+    clear:both;
+}
+
+footer{
+    background:#666;
+    color:#fff;
+    font-size: 8px;
+
+
+  
+    left: 0;
+    bottom: 0;
+    height: 3rem;
+    width: 100%;
+    overflow: hidden;
+   
+}
+
+
+.footer-content{
+    text-align:center;
+    margin-top:3em;
+
+}
+
+
