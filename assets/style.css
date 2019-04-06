@@ -59,8 +59,14 @@ nav {
 .basic-nav,
 a {
   text-decoration: none;
-  padding: 20px 10px;
+  padding: 10px;
   color: #777;
+}
+
+a:hover{
+    background:#4aaaa5;
+    color:#fff;
+    
 }
 
 /*Main*/
@@ -179,9 +185,6 @@ footer {
   font-weight: bold;
   font-size: 24px;
   text-align: center;
+  border-top: 8px solid #4aaaa5;
 }
 
-#footer {
-  width: 100%;
-  border: 1px solid #4aaaa5;
-}
